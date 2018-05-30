@@ -163,7 +163,7 @@ class Btcturk():
         return self._make_request(method="POST", path="cancelOrder", data=data)
 
     def market_buy(self, pair_symbol, total, total_precision):
-        """
+        """aa21a9ed2f0652a639f72ed367b70158f86402b0b76741a729a7684a6f18c662348e793d
         Buy crypto with market price
         :param str pair_symbol: currency symbol pair (BTCTRY, ETHTRY, XRPTRY)
         :param int total: The total amount you will spend with this order. You will buy from different prices until your order is filled as described above
